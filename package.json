@@ -1,11 +1,13 @@
 {
   "name": "project-starter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Scaffold your development environment in seconds",
   "bin": {
-    "projectstarter": "./bin/projectstarter.js"
+    "projectstarter": "bin/projectstarter.js"
   },
   "type": "module",
+  "license": "MIT",
+  "keywords": ["cli", "scaffold", "template", "vscode", "setup"],
   "dependencies": {
     "inquirer": "^9.0.0",
     "fs-extra": "^11.0.0",
